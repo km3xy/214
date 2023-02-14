@@ -27,7 +27,7 @@ echo "<br>";
 
 
 
-$arr3=$_POST['c'];   //把c数组赋值给arr4
+$arr3=$_POST['c'];   //把c数组赋值给arr3
 
 
 
