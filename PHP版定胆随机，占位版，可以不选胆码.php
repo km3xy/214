@@ -4,9 +4,6 @@
 checked="checked" name="c[占位];" id="red" value="#占位2">#占位2
 
 
-
-
-
 <legend>PHP版定胆随机，占位版，可以不选胆码：</legend>
  
  核心方法
@@ -58,14 +55,10 @@ checked="checked" name="c[占位];" id="red" value="#占位2">#占位2
 方法1#随机定位码定胆
 
 
-
 <br>
 
 
-
 方法2#
-
-
 
 
 <br>
@@ -107,8 +100,6 @@ checked="checked" name="c[占位];" id="red" value="#占位2">#占位2
 
 error_reporting(E_ALL^E_NOTICE^E_WARNING);     //php关闭错误报告
 
-
-
 /*
 
 注释――必须把php代码放到 form标签内
@@ -134,13 +125,10 @@ echo "<br>";
 //$y=count($arr3);//获取C数组长度
 
 
-
 //$x=mt_rand(1,$y);  //取随机个数
 
 
-
 //echo "C数组长度是";
-
 
 
 //echo   $y;
@@ -205,28 +193,22 @@ $ty=count($at2);
 //获取C数组长度
 
 
-
 echo  "$ty";
 
 
 echo "<br>";
 
 
-
 echo  "取随机个数=";
-
 
 
 $tx=mt_rand(1,$ty);  //取随机个数
 
 
-
 echo "$tx";
 
 
-
 echo "<br>";
-
 
 
 echo  "减法计算结果=";
@@ -247,24 +229,19 @@ print_r($txty);
 echo "<br>";
 
 
-
 $a2=array_rand($at2,$txty);
 
 
 echo  "输出结果集";
 
 
-
 echo "<br>";
-
 
 
 print_r($a2);
 
 
-
 echo "<br>";
-
 
 
 //可以print_r 出 2个或多个数字
