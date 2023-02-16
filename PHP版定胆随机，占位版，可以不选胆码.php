@@ -1,14 +1,20 @@
 
+<input type="checkbox" 
+
+checked="checked" name="c[占位];" id="red" value="#占位2">#占位2
+
+
+
+
 
 <legend>PHP版定胆随机，占位版，可以不选胆码：</legend>
  
  核心方法
  
- 
 <br>
  
  注！注！注!
- 没有号码清空返回还原，重选，
+ 没有号码清空返回还原，重选，或直接，提交开始
  
 <br>
 
@@ -122,11 +128,7 @@ echo "定胆随机后―――>随机的前区号码";
 echo "<br>";
 
 
-
 //$arr3=$_POST['c'];   //把c数组赋值给arr4
-
-
-
 
 
 //$y=count($arr3);//获取C数组长度
@@ -150,35 +152,25 @@ echo "<br>";
 //echo "随机个数是";
 
 
-
-
 //echo   $x;
-
 
 
 //$xy=$y - $x;  //减法计算
 
 
-
 //echo "数组长度减去——随机的个数=";
-
 
 
 //echo  $xy;
 
 
-
 //echo "<br>";
-
 
 
 //$arr33=array_rand($arr3,$xy);
 
 
 //print_r($arr33);
-
-
-
 
 
 //echo  "$arr33";
@@ -188,14 +180,10 @@ echo "<br>";
 //echo "<br>";
 
  
-
-
 //$join22=join("    ", $arr33);
 
 
-
 //echo   "$join22";
-
 
 //  可以 echo 出 2个或多个数字
 
@@ -325,16 +313,13 @@ $xy=$x - $y;  //减法计算
 
 
 
-
 $b5=mt_rand($xy,$xy); //设定位数值
-
 
 
 
  $arr5=array_rand($result2,$b5);  
 
  //在勾选号码中随机
-
 
 
 
@@ -348,12 +333,6 @@ $b5=mt_rand($xy,$xy); //设定位数值
 $he= array_merge($arr5,$a2); 
 
 //合并arr5和a2数组
-
-
-
-
-
-
 
 
 sort($he);      //按照顺序排列数组
@@ -383,10 +362,6 @@ echo "<br>";
 
 $arr2=$_POST['b'];   //把b数组赋值给arr2
  
-
-
-
-
 $b1=mt_rand(1,2);  //设定位数值
 
 echo "   ";
@@ -400,7 +375,6 @@ $join2=join("    ", $array_name);
 echo $join2;   //输出2个或多个结果集
 
 
-
 echo "<br>";
 
 
@@ -411,14 +385,10 @@ echo $array_name;  //输出1个结果集
 echo "<br>";""
 
 
-
-
  ?>
 
 
-
 <a href="dlt_join_dlt_join.php" target="_blank"  style="font-size:38px;">点我，返回复选框，独立版主页</a>
-
 
 
     </form>
