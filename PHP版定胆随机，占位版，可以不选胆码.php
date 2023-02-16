@@ -1,3 +1,6 @@
+//代码片段
+
+//  checked="checked"  选中复选框
 
 <input type="checkbox" 
 
